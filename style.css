@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color:cornsilk;
+}
+
+/* Header */
+header {
+    background-color:green;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* About Section */
+#about {
+    padding: 50px;
+    text-align: center;
+    background-color:white;
+    margin: 0;
+}
+
+#about img.profile-img {
+    width: 190px;
+    border-radius:inherit;
+    margin-bottom: 50px;
+}
+
+#about p{
+    font-size: 18px;
+    color:#333;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width:800px;
+    text-align: left;
+}
+
+/* Skills Section */
+#skills {
+    padding: 50px;
+    background-color:#e2e2e2;
+    text-align:center;
+}
+
+#skills ul {
+    list-style-type:none;
+}
+
+#skills ul li {
+    display: table;
+    position: inherit;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#skills ul li:hover {
+    background-color: #50cfcb;
+}
+
+/* Projects Section */
+#projects {
+    padding: 50px;
+    background-color:#fff;
+    
+}
+
+#projects .project {
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+#projects img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+#projects h3 {
+    margin-top: 15px;
+    font-size: 1.5rem;
+}
+
+/* Resume Section */
+#resume {
+    padding: 50px;
+    text-align: center;
+    background-color: #e2e2e2;
+}
+
+#resume a {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#resume a:hover {
+    background-color: #50cfcb;
+}
+
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+
+#social-links {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#social-links a:hover {
+    background-color:lightgray;
+}
+
+#icon {
+    width:50px;
+    height:50px;
+    transition: transform 0.2s;
+
+}
+
+#icon:hover {
+    transform: scale(1.5);
+
+}
+
+/* Footer */
+footer {
+    background-color:darkgreen;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
